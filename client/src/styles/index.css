@@ -1,0 +1,73 @@
+body{
+    overflow:hidden;
+}
+
+.top-container{
+    display: flex;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+.side-menu{ width: 30%; }
+.main{
+    width: 70%;
+    background-color: red;
+}
+
+.side-menu-header {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    top: 0;
+    background-color: brown;
+}
+
+.side-menu-contacts {
+    max-height: 100vh;
+    top: 150px;
+    width: 100%;
+    overflow: auto;
+    background-color: aqua;
+}
+
+.main-header {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.main-content{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    bottom:60px;
+    background-color: yellow;
+}
+
+.main-bottom{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    bottom:0;
+    background-color:green;
+}
+
+.loading-indicator {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    z-index:9;
+}
+
+.center{
+    text-align: center;
+}
+
+.avatar{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    vertical-align: middle;
+}

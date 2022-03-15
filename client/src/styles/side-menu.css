@@ -1,0 +1,45 @@
+.side-menu-info-container {
+   display: flex;
+   height: 60px;
+   background-color: aliceblue;
+}
+
+.side-menu-info-avatar {
+    padding: 5px;
+}
+
+.side-menu-info-details{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.side-menu-info-icons{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 15px;
+}
+
+.side-menu-info-icon{
+    height: 25;
+    width: 25;
+}
+
+.side-menu-search-container{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+.side-menu-search {
+    width: 90%;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.side-menu-search-icon {
+    height: 25;
+    width: 25;
+    margin-top: 4px;
+}

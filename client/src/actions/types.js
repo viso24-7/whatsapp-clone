@@ -1,0 +1,15 @@
+export const GET_AVATARS = 'get_avatars';
+export const SIGNUP_USER = 'signup_user';
+export const LOGIN_USER = 'login_user';
+export const LOGOUT_USER = 'logout_user';
+export const GET_USER_DATA = ' get_user_data';
+export const GET_FRIENDS_LIST = 'get_friends_list';
+export const GET_CHAT_DATA = 'get_chat_data';
+export const UPDATE_USER_DATA = 'update_user_data';
+export const SEND_MESSAGE = 'send_message';
+export const DELETE_MESSAGE = 'delete_message';
+export const DELETE_CONTACT_CHAT = 'delete_contact_chat';
+export const PINORUNPIN_CHAT = 'pin_or_unpin_chat';
+export const UNREAD_CHAT = 'raed_unread_chat';
+export const SEARCH_FRIENDS = 'search_friends';
+export const ADD_AS_FRIEND = 'add_as_friend';

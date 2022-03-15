@@ -1,0 +1,38 @@
+.message{
+   height: 60px;
+}
+
+.message-name{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-weight: bold;
+}
+
+.message-content{
+    position: relative;
+    top: -5px;
+    left: 55px;
+}
+
+.message-avatar{
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 10px;
+}
+
+.time-of-message{
+    position: relative;
+    float: right;
+    top: -40px;
+    left: -20px;
+}
+
+.message-V{
+    position: relative;
+    float: right;
+    top: -40px;
+    left: -30px;
+}
+
